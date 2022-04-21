@@ -5,7 +5,8 @@ on:
       - main
 
 jobs:
-  runs-on: ubuntu-latest
+  publish:
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
       - uses: actions/setup-node@v1
